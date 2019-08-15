@@ -276,3 +276,18 @@ blockquote a
     font-family:serif;
     font-size:0.9em;
 }
+
+.code-instruction
+{
+    margin: 2em 0em;
+}
+
+.code-instruction span
+{
+    font-family: monospace;
+    background:#efefef;
+    font-size:1.1em;
+    padding: 0.5em;
+    border: 0px solid;
+    border-radius:5px;
+}
