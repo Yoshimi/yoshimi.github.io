@@ -1,6 +1,9 @@
 {
     "copy": [
 	"style.css",
+	"original.html",
+	"original_style.css",
+	"images",
 	"img"
     ],
     "footer_links": [
