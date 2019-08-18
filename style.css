@@ -259,6 +259,11 @@ iframe, embed
     margin-top:40px;
 }
 
+audio
+{
+    width:100%;
+}
+
 .screenshots
 {
     text-align:center;
