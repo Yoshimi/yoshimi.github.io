@@ -264,6 +264,12 @@ iframe, embed
     margin-top:40px;
 }
 
+.demos .person
+{
+    font-style:italic;
+    font-size:0.95em;
+}
+
 audio
 {
     width:100%;
