@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Yoshimi - History</title>
-    <link rel=stylesheet type="text/css" href="style.css" />
-    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
-  </head>
-  <body>
-    <header>
-      <div id="logo-wrapper">
-	<a href="./"><img id="logo" src="img/logo.png" alt="Yoshimi"/></a>
-	<a href="./"><img id="robot" src="img/robot_head.png" alt="Pink robot"/></a>
-      </div>
-      <div id="subtitle">
-	Software synthesizer for Linux
-      </div>
-    </header>
-    <div class="nav-wrapper">
-      <nav>
-	<span class="nav-row"><a href="./"  >Home</a><a href="downloads.html"  >Downloads</a></span><span class="nav-row"><a href="screenshots.html"  >Screenshots</a></span><span class="nav-row"><a href="demos.html"  >Demos</a><a href="help.html"  >Help</a></span>
-      </nav>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel=stylesheet type="text/css" href="stylesheets/style.css" />
+  <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+  <header>
+    <div id="logo-wrapper">
+      <a href="./"><img id="logo" src="img/logo.png" alt="Yoshimi" /></a>
+      <a href="./"><img id="robot" src="img/robot_head.png" alt="Pink robot" /></a>
     </div>
-    <div id="main-wrapper">
-      <main>
-        <h1 style="padding-bottom:0.5em;">The History of Yoshimi</h1>
+    <div id="subtitle">
+      Software synthesizer for Linux
+    </div>
+  </header>
+  <div class="nav-wrapper">
+    <nav>
+      
+      
+      <span class="nav-row">
+        <a href="./" >Home</a>
+      </span>
+      
+      <span class="nav-row">
+        <a href="downloads.html" >Downloads</a>
+      </span>
+      
+      <span class="nav-row">
+        <a href="screenshots.html" >Screenshots</a>
+      </span>
+      
+      <span class="nav-row">
+        <a href="demos.html" >Demos</a>
+      </span>
+      
+      <span class="nav-row">
+        <a href="help.html" >Help</a>
+      </span>
+      
+      
+    </nav>
+  </div>
+  <div id="main-wrapper">
+    <main>
+      
+<h1 style="padding-bottom:0.5em;">The History of Yoshimi</h1>
 
 <p style="text-align:center; margin-top: 0em; margin-bottom:1em;">
   by <span class="person">Will Godfrey</span>
@@ -33,17 +58,17 @@
 <div class="history">
 
   <blockquote cite="Jonathan E. Brickman">
-      Once upon a time, there was just
-      <a href="https://en.wikipedia.org/wiki/Moog_synthesizer" target="_blank">
-	<span class="person">Moog</span>.
+    Once upon a time, there was just
+    <a href="https://en.wikipedia.org/wiki/Moog_synthesizer" target="_blank">
+      <span class="person">Moog</span>.
+    </a>
+    Then there were many.
+    <div class="attribution">
+      &ndash;&nbsp;
+      <a href="https://ponderworthy.com/">
+        Jonathan E. Brickman
       </a>
-      Then there were many.
-      <div class="attribution">
-	&ndash;&nbsp;
-	<a href="https://ponderworthy.com/">
-	  Jonathan E. Brickman
-	</a>
-      </div>
+    </div>
   </blockquote>
 
   <p>
@@ -168,75 +193,135 @@
   </p>
   <p>
     August 17th of 2020 saw the release of 1.7.2. The most important change was the addition of width and center
-    controls for random panning, allowing greater control of the panning range. Additionally, the FM modulation algorithm was improved (by <span class="person">Kristian Amlie</span>, who also provided some additional fixes and optimizations), instrument file compatibility issues were addressed, numerous gui bugs were fixed and some new dynamic tooltips were added.
+    controls for random panning, allowing greater control of the panning range. Additionally, the FM modulation
+    algorithm was improved (by <span class="person">Kristian Amlie</span>, who also provided some additional fixes and
+    optimizations), instrument file compatibility issues were addressed, numerous gui bugs were fixed and some new
+    dynamic tooltips were added.
   </p>
   <p>
-    The major release of 2.0 was made in early 2021 and a saw number of major improvements, with the most notable one being the ability to resize all windows - allowing a much better experience on larger, and high-dpi monitors. Other improvements included LFO Sync, improved LV2 performance and general performance improvements on some RISC-architecture CPUs, extra instrument types (with instrument bank revisions to include said types).
+    The major release of 2.0 was made in early 2021 and a saw number of major improvements, with the most notable one
+    being the ability to resize all windows - allowing a much better experience on larger, and high-dpi monitors. Other
+    improvements included LFO Sync, improved LV2 performance and general performance improvements on some
+    RISC-architecture CPUs, extra instrument types (with instrument bank revisions to include said types).
   </p>
   <p>
     The 2.0 release also saw improvements to the instrument bank and instrument type systems, and MIDI-learn.
     It added persistent aftertouch and pan law settings (the latter also being a new feature).
-    A new file browser was implemented, replacing the stock fltk browser to provide more control and some quality-of-life features.
+    A new file browser was implemented, replacing the stock fltk browser to provide more control and some
+    quality-of-life features.
   </p>
   <p>
     The 2.1 release, in late August of 2021, expanded the BPM sync to both LFO's and relevant effect parameters.
     There were also more improvements to the UI, notably the file manager. A large portion of the development
-    cycle was dedicated to the creation of a <a href="docs/user-guide">revised and improved user guide</a>, available in lightweight HTML.
+    cycle was dedicated to the creation of a <a href="docs/user-guide">revised and improved user guide</a>, available in
+    lightweight HTML.
   </p>
   <p>
-    In October of 2021, the patch release 2.1.1 brought substantial improvements to the performance and functionality of the instrument banks -
-    improving load times and disambiguation of bank/instrument names from merges. It also included a new dedicated button for opening the MIDI CC
-    controls window. These controls were often overlooked, as they were previously only accessible by right-clicking the Controllers button.
-    After general agreement, triggering a program change for a part will now always enable that part - controls that disabled that behaviour were
+    In October of 2021, the patch release 2.1.1 brought substantial improvements to the performance and functionality of
+    the instrument banks -
+    improving load times and disambiguation of bank/instrument names from merges. It also included a new dedicated
+    button for opening the MIDI CC
+    controls window. These controls were often overlooked, as they were previously only accessible by right-clicking the
+    Controllers button.
+    After general agreement, triggering a program change for a part will now always enable that part - controls that
+    disabled that behaviour were
     removed (the behaviour can still be achieved via NRPN, if desired).
-    Other changes included easier navigation to favourites in the file browser, and fixing an issue where the user guide did not open instantly.
+    Other changes included easier navigation to favourites in the file browser, and fixing an issue where the user guide
+    did not open instantly.
   </p>
-  <p>November 29th of 2021 saw the release of 2.1.2, where development was mostly focussed on the gui - fixing positioning issues and making most controls of the resonance window MIDI-learnable.</p>
+  <p>November 29th of 2021 saw the release of 2.1.2, where development was mostly focussed on the gui - fixing
+    positioning issues and making most controls of the resonance window MIDI-learnable.</p>
   <p>
     Yoshimi 2.2.0 was released in May 2022, and saw some major features and improvements.
-    <span class="person">Hermann</span> implemented threaded recalculation and live transitions between wave tables for the padsynth engine.
-    When coupled with midi learnable recalculation (as well as the ability to self-trigger recalculation with random walk)
-    it greatly increased the power and flexibility of that engine. Hermann also made many improvements to the internals, particularly in the area of filters (reverb and analog).
-    The first version of a long awaited undo/redo feature was added, allowing for a much nicer experience when developing and tweaking instruments.
+    <span class="person">Hermann</span> implemented threaded recalculation and live transitions between wave tables for
+    the padsynth engine.
+    When coupled with midi learnable recalculation (as well as the ability to self-trigger recalculation with random
+    walk)
+    it greatly increased the power and flexibility of that engine. Hermann also made many improvements to the internals,
+    particularly in the area of filters (reverb and analog).
+    The first version of a long awaited undo/redo feature was added, allowing for a much nicer experience when
+    developing and tweaking instruments.
     The undo/redo supports the vast majority of actions that can be performed in the gui (or cli).
     Support for setting a default BPM was provided by <span class="person">Kristian</span>.
     In addition, a lot of bugs were fixed and a great deal of work went into adapting the gui for the new features.
   </p>
   <p>
-    Versions 2.2.1 and 2.2.2 brought a number of bugfixes, a few new instruments, and a reset button for the part editor.
+    Versions 2.2.1 and 2.2.2 brought a number of bugfixes, a few new instruments, and a reset button for the part
+    editor.
   </p>
   <P>
-    In 2.2.3, more bugs were fixed, and a couple of instruments were added. Eq bands and formant filters had their counters changed to start from 1 instead of 0. The formant filter editor was also changed to mark unused vowels, and a long-lived text resize issue was fixed.
+    In 2.2.3, more bugs were fixed, and a couple of instruments were added. Eq bands and formant filters had their
+    counters changed to start from 1 instead of 0. The formant filter editor was also changed to mark unused vowels, and
+    a long-lived text resize issue was fixed.
   </p>
   <p>
-    At the end of May in 2023, after a gruelling development cycle, version 2.3.0 was released. It included new instruments from Art and Lorenzo, numerous improvements to the gui, code improvements, bug fixes, and engine improvements. The most prominent of the new features was making the gui themeable, with both bundled and customizable themes. The knobs and sliders were also changed to mark when they deviate from their default values. On the engine side of things, certain envelopes and sliders that were previously limited to integer increments were changed to support floating point values, lending more control over sound design in some areas.
+    At the end of May in 2023, after a gruelling development cycle, version 2.3.0 was released. It included new
+    instruments from Art and Lorenzo, numerous improvements to the gui, code improvements, bug fixes, and engine
+    improvements. The most prominent of the new features was making the gui themeable, with both bundled and
+    customizable themes. The knobs and sliders were also changed to mark when they deviate from their default values. On
+    the engine side of things, certain envelopes and sliders that were previously limited to integer increments were
+    changed to support floating point values, lending more control over sound design in some areas.
   </p>
   <p>
-    In mid-October of 2023, 2.3.1 was released. It added the ability to export Scala tunings and keymaps, and improved keymap handling among other smaller fixes.
-    In the meantime a lot of work was put in to improve the user guide and reference manual, primarily by <span class="person">Art Horan</span>
+    In mid-October of 2023, 2.3.1 was released. It added the ability to export Scala tunings and keymaps, and improved
+    keymap handling among other smaller fixes.
+    In the meantime a lot of work was put in to improve the user guide and reference manual, primarily by <span
+      class="person">Art Horan</span>
   </p>
   <p>
-    2.3.2 was released about four months later, introducing independently controllable left/right delay for the echo effect and a couple of new instruments. Behind the scenes, there were also considerable work on code consistency and documentation, as well as numerous small gui improvements and bug fixes.
+    2.3.2 was released about four months later, introducing independently controllable left/right delay for the echo
+    effect and a couple of new instruments. Behind the scenes, there were also considerable work on code consistency and
+    documentation, as well as numerous small gui improvements and bug fixes.
   </p>
   <p>
-    On September 23:d of 2024, version 2.3.3 was released. It included improvements to the GUI theming capabilities, adding useful tools for those who create new themes.
-    One example of this was a new control allowing themes to be viewed in monochrome to assess their accessibility with regard to colourblind people.
-    Additionally, the internals saw some improvements to memory-handling with a number of bugs being fixed in the process.
-    There were also improvements to the config control, an extended range of keyboard shortcuts and fixes to some old display-issues.
+    On September 23:d of 2024, version 2.3.3 was released. It included improvements to the GUI theming capabilities,
+    adding useful tools for those who create new themes.
+    One example of this was a new control allowing themes to be viewed in monochrome to assess their accessibility with
+    regard to colourblind people.
+    Additionally, the internals saw some improvements to memory-handling with a number of bugs being fixed in the
+    process.
+    There were also improvements to the config control, an extended range of keyboard shortcuts and fixes to some old
+    display-issues.
   </p>
   <p>
-    A few patch releases were made for 2.3.3.x in the first half of 2025 and then, in early June, 2.3.4 was released. This version introduced the Omni Control whereby any part could be made to receive MIDI signals from all incoming channels.
-    A number of quality-of-life improvements were made to the configuration system to prevent accidental loss of unsaved changes.
+    A few patch releases were made for 2.3.3.x in the first half of 2025 and then, in early June, 2.3.4 was released.
+    This version introduced the Omni Control whereby any part could be made to receive MIDI signals from all incoming
+    channels.
+    A number of quality-of-life improvements were made to the configuration system to prevent accidental loss of unsaved
+    changes.
   </p>
 
   <p>And the story continues...</p>
 
 </div>
 
-      </main>
+
+    </main>
+  </div>
+  <footer>
+    
+    <div class="links">
+      
+      <span class="nav-row">
+        <a href="about.html" >About</a>
+      </span>
+      
+      <span class="nav-row">
+        <a href="history.html"  class="active" >History</a>
+      </span>
+      
+      <span class="nav-row">
+        <a href="people.html" >People</a>
+      </span>
+      
+      <span class="nav-row">
+        <a href="contact.html" >Contact</a>
+      </span>
+      
     </div>
-    <footer>
-      <a href="about.html" >About</a><a href="history.html" style="font-weight:bold">History</a><a href="people.html" >People</a><a href="contact.html" >Contact</a>
-    </footer>
-  </body>
+    <div class="updated-date"> Updated 2025-07-04 </div>
+    
+  </footer>
+</body>
+
 </html>
